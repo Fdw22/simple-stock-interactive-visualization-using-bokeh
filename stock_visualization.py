@@ -98,7 +98,7 @@ Right_Content = column(p, data_table, button, dropdown)
 
 # Buat Layout dan gabungkan Left & Right Content
 layout = row(Left_content, Right_Content)
-show(layout) # akan otomatis membuka Browser (dir)
+# show(layout) # akan otomatis membuka Browser (dir)
 
-# curdoc().add_root(layout)
-# curdoc().title = "Stock Interactive Visualization using Bokeh"
+curdoc().add_root(layout)
+curdoc().title = "Stock Interactive Visualization using Bokeh"
